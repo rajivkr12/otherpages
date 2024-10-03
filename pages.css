@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+    
+}
+
+.form-step {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    width: calc(46% - 10px);
+    
+}
+
+button {
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 5%;
+    margin-left: 40%;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #e69500;
+}
+
+p {
+    color: #666;
+}
+.email-mobile {
+    display: flex;
+    margin-right: 3%;
+    justify-content: space-between;
+    
+}
+
+
+.specialists-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17vh 5vw;
+    background-color: #FDF4EE;
+}
+
+.specialists-info {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.specialists-info h2 {
+    position: relative;
+    left: -30vw;
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+
+.stats img{
+    position: relative;
+    left: -10vw;
+    width: 40vw;
+}
+.stats {
+    display: flex;
+   
+    width: 60vw;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    width: 18vw;
+}
+
+.stat img {
+    width: 5vw;
+    height: auto;
+    margin-bottom: 2vh;
+}
+
+
+.highlight {
+    color: #FF7F32;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+
+#docpic img{
+    width: 40vw;
+    height: 50vh;
+    position: relative;
+    left: -5vw;
+}
+
+.experience {
+    font-size: 2vh;
+    color: #555;
+}
+
+.meet-doctors {
+    background-color: #FF7F32;
+    color: white;
+    border: none;
+    padding: 1.5vh 3vw;
+    font-size: 2.5vh;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.meet-doctors:hover {
+    background-color: #E06A1E;
+}
+
+@media (max-width:600px){
+    .specialists-section {
+       height: 45vh;
+    }
+    
+    .stats img{
+        top: -5vw;
+        position: relative;
+        height: 30vh;
+    }
+    #docpic img{
+       
+        height: 20vh;
+        position: relative;
+        
+    }
+    .meet-doctors{
+        position: relative;
+        top: -23vw;
+        left: 20vw;
+        height: 2vh;
+        width: 20vw;
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+    .specialists-info h2 {
+        font-size: 2vw;
+    }
+    
+    
+
+}
+
+
+#buttons {
+    display: flex;
+    gap: 1vw;
+}
+
+#book-appointment, #help {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1.2vw;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#book-appointment {
+    background: #F8943F;
+    color: white;
+    padding-left: 1.5vw;
+    font-size: 1.07vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+    
+}
+
+#pagelike{
+    position: fixed;
+    z-index: 1;
+}
+
+#pagelikeborder{
+    padding-top: 0.25vw;
+    padding-left: 0.25vw;
+    position: relative;
+    z-index: 9;
+    position: fixed;
+}
+
+#bookmark{
+    position: relative;
+    z-index: 9;
+    padding-bottom: 1.3vw;
+    left: 0.7vw;
+    top: 0.2vw;
+}
+
+#bookapptext{
+    position: relative;
+    right: 1.3vw;
+}
+
+#bookmarkborder{
+    position: relative;
+    z-index: 9;
+    padding-bottom: 1.25vw;
+    left: -0.2vw;
+    top: 0.24vw;
+}
+
+.brownline{
+    position: relative;
+    z-index: 9;
+    right: 1.4vw;
+    bottom: 0.6vw;
+}
+.brownline2{
+    width: 0.9vw;
+    position: relative;
+    z-index: 9;
+    right: 2.79vw;
+    bottom: 0.45vw;
+}
+
+.brownline3{
+    width: 0.7vw;
+    position: relative;
+    z-index: 9;
+    right: 3.99vw;
+    bottom: 0.3vw;
+}
